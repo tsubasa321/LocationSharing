@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		665D65CBF7BC0D2194601630 /* libPods-LocationSharing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE28B0357D194D51FE34534 /* libPods-LocationSharing.a */; };
 		F3FFDE141D383E3B00C27588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FFDE131D383E3B00C27588 /* AppDelegate.swift */; };
 		F3FFDE161D383E3B00C27588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FFDE151D383E3B00C27588 /* ViewController.swift */; };
 		F3FFDE191D383E3B00C27588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FFDE171D383E3B00C27588 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		F3FFDE1E1D383E3B00C27588 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FFDE1C1D383E3B00C27588 /* LaunchScreen.storyboard */; };
 		F3FFDE291D383E3B00C27588 /* LocationSharingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FFDE281D383E3B00C27588 /* LocationSharingTests.swift */; };
 		F3FFDE341D383E3B00C27588 /* LocationSharingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FFDE331D383E3B00C27588 /* LocationSharingUITests.swift */; };
+		F3FFDE471D3A5CD800C27588 /* CustomPointAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FFDE461D3A5CD800C27588 /* CustomPointAnnotation.swift */; };
+		F3FFDE491D3A634700C27588 /* pin2X.png in Resources */ = {isa = PBXBuildFile; fileRef = F3FFDE481D3A634700C27588 /* pin2X.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43527024C634A57BCE8D49DE /* Pods-LocationSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationSharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationSharing/Pods-LocationSharing.release.xcconfig"; sourceTree = "<group>"; };
+		4DE28B0357D194D51FE34534 /* libPods-LocationSharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LocationSharing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0386FA0789B6DBB2CFAD01F /* Pods-LocationSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationSharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocationSharing/Pods-LocationSharing.debug.xcconfig"; sourceTree = "<group>"; };
 		F3FFDE101D383E3B00C27588 /* LocationSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FFDE131D383E3B00C27588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3FFDE151D383E3B00C27588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,9 @@
 		F3FFDE2F1D383E3B00C27588 /* LocationSharingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationSharingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FFDE331D383E3B00C27588 /* LocationSharingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSharingUITests.swift; sourceTree = "<group>"; };
 		F3FFDE351D383E3B00C27588 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3FFDE411D3842B400C27588 /* LocationSharing-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LocationSharing-Bridging-Header.h"; sourceTree = "<group>"; };
+		F3FFDE461D3A5CD800C27588 /* CustomPointAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPointAnnotation.swift; sourceTree = "<group>"; };
+		F3FFDE481D3A634700C27588 /* pin2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pin2X.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				665D65CBF7BC0D2194601630 /* libPods-LocationSharing.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C8397A3BD505E131627C4DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0386FA0789B6DBB2CFAD01F /* Pods-LocationSharing.debug.xcconfig */,
+				43527024C634A57BCE8D49DE /* Pods-LocationSharing.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B4EE4E96248B4E744886A53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4DE28B0357D194D51FE34534 /* libPods-LocationSharing.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F3FFDE071D383E3B00C27588 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +108,9 @@
 				F3FFDE271D383E3B00C27588 /* LocationSharingTests */,
 				F3FFDE321D383E3B00C27588 /* LocationSharingUITests */,
 				F3FFDE111D383E3B00C27588 /* Products */,
+				1C8397A3BD505E131627C4DA /* Pods */,
+				4B4EE4E96248B4E744886A53 /* Frameworks */,
+				F3FFDE411D3842B400C27588 /* LocationSharing-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +127,10 @@
 		F3FFDE121D383E3B00C27588 /* LocationSharing */ = {
 			isa = PBXGroup;
 			children = (
+				F3FFDE481D3A634700C27588 /* pin2X.png */,
 				F3FFDE131D383E3B00C27588 /* AppDelegate.swift */,
 				F3FFDE151D383E3B00C27588 /* ViewController.swift */,
+				F3FFDE461D3A5CD800C27588 /* CustomPointAnnotation.swift */,
 				F3FFDE171D383E3B00C27588 /* Main.storyboard */,
 				F3FFDE1A1D383E3B00C27588 /* Assets.xcassets */,
 				F3FFDE1C1D383E3B00C27588 /* LaunchScreen.storyboard */,
@@ -132,9 +164,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F3FFDE381D383E3B00C27588 /* Build configuration list for PBXNativeTarget "LocationSharing" */;
 			buildPhases = (
+				5F2859C59F8BEF71CAEF1392 /* [CP] Check Pods Manifest.lock */,
 				F3FFDE0C1D383E3B00C27588 /* Sources */,
 				F3FFDE0D1D383E3B00C27588 /* Frameworks */,
 				F3FFDE0E1D383E3B00C27588 /* Resources */,
+				5B511DE53187EE5AE531B310 /* [CP] Embed Pods Frameworks */,
+				5F791C14DE7CCD8DD686442E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3FFDE1E1D383E3B00C27588 /* LaunchScreen.storyboard in Resources */,
+				F3FFDE491D3A634700C27588 /* pin2X.png in Resources */,
 				F3FFDE1B1D383E3B00C27588 /* Assets.xcassets in Resources */,
 				F3FFDE191D383E3B00C27588 /* Main.storyboard in Resources */,
 			);
@@ -251,12 +287,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B511DE53187EE5AE531B310 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationSharing/Pods-LocationSharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F2859C59F8BEF71CAEF1392 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5F791C14DE7CCD8DD686442E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LocationSharing/Pods-LocationSharing-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F3FFDE0C1D383E3B00C27588 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F3FFDE161D383E3B00C27588 /* ViewController.swift in Sources */,
+				F3FFDE471D3A5CD800C27588 /* CustomPointAnnotation.swift in Sources */,
 				F3FFDE141D383E3B00C27588 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -399,23 +484,30 @@
 		};
 		F3FFDE391D383E3B00C27588 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0386FA0789B6DBB2CFAD01F /* Pods-LocationSharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LocationSharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Personal.Alvin.LocationSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LocationSharing-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		F3FFDE3A1D383E3B00C27588 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43527024C634A57BCE8D49DE /* Pods-LocationSharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = LocationSharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Personal.Alvin.LocationSharing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LocationSharing-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +576,7 @@
 				F3FFDE3A1D383E3B00C27588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3FFDE3B1D383E3B00C27588 /* Build configuration list for PBXNativeTarget "LocationSharingTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +585,7 @@
 				F3FFDE3D1D383E3B00C27588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3FFDE3E1D383E3B00C27588 /* Build configuration list for PBXNativeTarget "LocationSharingUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +594,7 @@
 				F3FFDE401D383E3B00C27588 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

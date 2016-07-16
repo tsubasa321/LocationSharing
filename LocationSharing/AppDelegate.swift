@@ -16,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Kii.beginWithID("193e78e5", andKey: "e55d546c34bae1d3a1348c01fc94a344", andSite: KiiSite.US)
+        
         return true
     }
 

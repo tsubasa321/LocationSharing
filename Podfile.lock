@@ -1,0 +1,12 @@
+PODS:
+  - KiiCloud (2.5.2)
+
+DEPENDENCIES:
+  - KiiCloud (= 2.5.2)
+
+SPEC CHECKSUMS:
+  KiiCloud: 449bbb1a82f9d36f1512321fb15342e83b3363a8
+
+PODFILE CHECKSUM: d92bb0165fcb04ad9aacb7cba1e3267dc6ec5f78
+
+COCOAPODS: 1.0.1
