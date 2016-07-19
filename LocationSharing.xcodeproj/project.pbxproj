@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		665D65CBF7BC0D2194601630 /* libPods-LocationSharing.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE28B0357D194D51FE34534 /* libPods-LocationSharing.a */; };
+		F34E936E1D3D6B5C00CC88C0 /* TestFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34E936D1D3D6B5C00CC88C0 /* TestFunctions.swift */; };
 		F3FFDE141D383E3B00C27588 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FFDE131D383E3B00C27588 /* AppDelegate.swift */; };
 		F3FFDE161D383E3B00C27588 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FFDE151D383E3B00C27588 /* ViewController.swift */; };
 		F3FFDE191D383E3B00C27588 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3FFDE171D383E3B00C27588 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		43527024C634A57BCE8D49DE /* Pods-LocationSharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationSharing.release.xcconfig"; path = "Pods/Target Support Files/Pods-LocationSharing/Pods-LocationSharing.release.xcconfig"; sourceTree = "<group>"; };
 		4DE28B0357D194D51FE34534 /* libPods-LocationSharing.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LocationSharing.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0386FA0789B6DBB2CFAD01F /* Pods-LocationSharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocationSharing.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LocationSharing/Pods-LocationSharing.debug.xcconfig"; sourceTree = "<group>"; };
+		F34E936D1D3D6B5C00CC88C0 /* TestFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestFunctions.swift; sourceTree = "<group>"; };
 		F3FFDE101D383E3B00C27588 /* LocationSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FFDE131D383E3B00C27588 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3FFDE151D383E3B00C27588 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				F3FFDE481D3A634700C27588 /* pin2X.png */,
 				F3FFDE131D383E3B00C27588 /* AppDelegate.swift */,
 				F3FFDE151D383E3B00C27588 /* ViewController.swift */,
+				F34E936D1D3D6B5C00CC88C0 /* TestFunctions.swift */,
 				F3FFDE461D3A5CD800C27588 /* CustomPointAnnotation.swift */,
 				F3FFDE171D383E3B00C27588 /* Main.storyboard */,
 				F3FFDE1A1D383E3B00C27588 /* Assets.xcassets */,
@@ -343,6 +346,7 @@
 				F3FFDE161D383E3B00C27588 /* ViewController.swift in Sources */,
 				F3FFDE471D3A5CD800C27588 /* CustomPointAnnotation.swift in Sources */,
 				F3FFDE141D383E3B00C27588 /* AppDelegate.swift in Sources */,
+				F34E936E1D3D6B5C00CC88C0 /* TestFunctions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
