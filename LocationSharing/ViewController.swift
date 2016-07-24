@@ -11,7 +11,11 @@ import MapKit
 
 class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate, UIGestureRecognizerDelegate {
 
+    @IBOutlet weak var locationInfo: UIView!
+    
     @IBOutlet weak var map: MKMapView!
+
+    var locationDetailView: LocationInfoView!
     
     var locationManager = CLLocationManager()
     
@@ -60,6 +64,15 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         initUsersAnnotations()
         
         updateUsersAnnotations()
+        
+        if let customView = NSBundle.mainBundle().loadNibNamed("LocationInfoSubview", owner: self, options: nil).first as? LocationInfoView {
+            
+            locationDetailView = customView
+            
+            locationInfo.addSubview(customView)
+            
+            //customView.setTranslatesAutoresizingMaskIntoConstraints(false)
+        }
 
         //writeTimer = NSTimer.scheduledTimerWithTimeInterval(0.6, target: self, selector: #selector(ViewController.updateUsersLocations), userInfo: nil, repeats: true)
         
@@ -306,9 +319,7 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         }
         
         let annotation = annotation as! CustomPointAnnotation
-        
-        print(annotation.id)
-        
+
         let reuseId = "member"
         
         var anView = mapView.dequeueReusableAnnotationViewWithIdentifier(reuseId)
@@ -337,7 +348,13 @@ class ViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDele
         
         let annotation = view.annotation as! CustomPointAnnotation
         
-        print(annotation.id)
+        locationDetailView.nameValueLabel.text = "Alvin"
+        
+        locationDetailView.latitudeValueLabel.text = String(annotation.coordinate.latitude)
+        
+        locationDetailView.longitudeValueLabel.text = String(annotation.coordinate.longitude)
+
+        locationInfo.hidden = false
     }
     
 

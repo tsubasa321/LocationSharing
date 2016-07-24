@@ -21,16 +21,27 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="M5Y-Rh-2gE">
                                 <rect key="frame" x="0.0" y="28" width="375" height="639"/>
                             </mapView>
+                            <view hidden="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="30t-ln-qMI">
+                                <rect key="frame" x="0.0" y="484" width="375" height="183"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="183" id="6Vf-eL-5r1"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="30t-ln-qMI" secondAttribute="trailing" constant="-20" id="752-6Q-9ep"/>
                             <constraint firstItem="M5Y-Rh-2gE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="DxF-UL-HKO"/>
                             <constraint firstAttribute="trailingMargin" secondItem="M5Y-Rh-2gE" secondAttribute="trailing" constant="-20" id="Le5-4h-LjE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="30t-ln-qMI" secondAttribute="bottom" id="PEi-nY-9gL"/>
+                            <constraint firstItem="30t-ln-qMI" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="Se0-3q-qWl"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="M5Y-Rh-2gE" secondAttribute="bottom" id="gC7-89-deO"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="LocationInfo" destination="30t-ln-qMI" id="4bC-gm-tYD"/>
                         <outlet property="map" destination="M5Y-Rh-2gE" id="ybP-xO-OL8"/>
                     </connections>
                 </viewController>
